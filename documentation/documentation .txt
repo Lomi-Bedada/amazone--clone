@@ -1,0 +1,29 @@
+create components
+create reposeter in git called amazon 
+install npm install react-icons
+ from png img  copy the icon we need for our projects
+ like logo of amazon ,search icon of amazon cart ....
+ 
+istall React Spinners << npm i yarn add react-spinners>>
+create folder called Carousel in React Spinners
+install cerousel 
+ npm install react-responsive-carousel
+in carousel componenet 
+in carousel tag make the imga play <i class="fa fa-automobile" aria-hidden="true"></i>
+        autoPlay={true}
+          infiniteLoop={true}
+          showIndicators={false}
+          showThumbs={false}
+        >
+
+
+        for catagorydeveloper in catagorydeveloper
+        How to use it
+<<fakeStoreApi can be used with any type of shopping project that needs products, carts, and users in JSON format. you can use examples below to check how fakeStoreApi works and feel free to enjoy it in your awesome projects!>> then in (allGet all categories)
+<to give format for number install numareral.js></to>
+
+
+<to create firebase 
+1st on browser google (firebase google)
+( click on Firebase | Google's Mobile and Web App Development Platform)
+ then click on (get started)

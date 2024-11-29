@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+:root {
+  --font_base: "lexend", sans-serif;
+  --font-second-base: "Inter", sans-serif;
+  --bg-color: #121312;
+  --primary-color: #ffffff;
+  --secondary-color: #e50914;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: #111;   */
+}
+
+.App {
+  background: #0b914c;
+}

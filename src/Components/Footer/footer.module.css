@@ -1,0 +1,121 @@
+.footer_top {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer_top button {
+  margin: 10px;
+  width: 250px;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.footer_top button:hover {
+  background-color: var(--primary-shade);
+}
+.footer_top a {
+  text-decoration: none;
+  color: cadetblue;
+}
+.footer_top a:hover {
+  color: rgb(147, 10, 72);
+}
+.black a p {
+  background-color: rgb(59, 72, 85);
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+.black a p:hover {
+  background-color: rgb(58, 81, 92);
+}
+.footer_container {
+  background-color: #232f3e;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer_container ul {
+  padding: 10px;
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer_container ul li {
+  padding: 7px;
+  font-size: 15px;
+}
+.footer_container ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer_container ul li a:hover {
+  text-decoration: underline;
+}
+
+/* .logo img{
+  background-color: white;
+  margin: 30px;
+  object-fit: contain;
+  width: 100px;
+  right: 30px;
+ 
+        } */
+.logo {
+  background-color: #232f3e;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.logo img {
+  margin: 30px auto;
+  object-fit: contain;
+  width: 100px;
+}
+.logo Link {
+  color: white;
+}
+.language {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.language select {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+}
+.language img {
+  width: 60%;
+}
+
+/* .title{
+
+  } */
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 776px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column !important;
+    height: auto;
+  }
+  ul li {
+    display: none;
+  }
+}

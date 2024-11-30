@@ -8,17 +8,14 @@ import Orders from "./Pages/Orders/Orders";
 import Payment from "./pages/Payment/payment";
 import ProductDetail from "./pages/ProductDetail/ProductDetail";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
-import React from "react";
 import Results from "./Components/Results/Result";
 import { loadStripe } from "@stripe/stripe-js";
 
+// import React from "react";
+
 // Load Stripe outside of a component’s render to avoid recreating the instance on every render
 const stripePromise = loadStripe(
-  "pk_test_51QPl2jEdxM3zXlPit4Lr1iprdgJlXm2PbIQUc2a6oCURNszLI5oPYs6LQCIupDqtFSm0Dc31oIOKLIazMZSKNmWd009UutHCPO;"
-  
-
-
-  
+  "pk_test_51QQCvvI5pDWPSC7Rsdrt2WigPyuIc5N96ti8iZtA0RwVJWDh3y684JunFDawBtkujj6bPq8zFgvHcfVb8USY3VHL00sCD0glQN"
 );
 
 const Routing = () => {

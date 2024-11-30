@@ -11,7 +11,7 @@ import { useParams } from "react-router-dom";
 const Results = () => {
   const [results, setResults] = useState([]);
   const { categoryName } = useParams();
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   // console.log(categoryName);
 
   useEffect(() => {

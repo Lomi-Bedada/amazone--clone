@@ -1,7 +1,7 @@
 {
   "homepage": "https://Lomi-Bedada.github.io/amazone--clone",
   "name": "amazone_clone",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

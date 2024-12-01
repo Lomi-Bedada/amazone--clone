@@ -3,12 +3,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import classes from "./footer.module.css";
 
-// import React from "react";
-
-{
-  /* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>; */
-}
-
 const Footer = () => {
   // State to manage which sections are expanded
   const [expandedSections, setExpandedSections] = useState({

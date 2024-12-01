@@ -1,5 +1,3 @@
-// Import the functions you need from the SDKs you need
-
 // import "firebase/compat/auth";
 
 import "firebase/compat/firestore";
@@ -7,14 +5,11 @@ import "firebase/compat/firestore";
 import firebase from "firebase/compat/app";
 import { getAuth } from "firebase/auth"; // For Authentication
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
   apiKey: "AIzaSyAMU2JUncoX3Q7QArIVZ3roiY3qQK_MQyA",
-  
+
   authDomain: "clone-6e083.firebaseapp.com",
   projectId: "clone-6e083",
   storageBucket: "clone-6e083.firebasestorage.app",

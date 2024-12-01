@@ -6,8 +6,8 @@ import { DataContext } from "../DataProviders/DataProvider";
 import { Link } from "react-router-dom";
 import LowerHeader from "./LowerHeader";
 import { PiCaretDownLight } from "react-icons/pi";
-import { SlLocationPin } from "react-icons/sl"; // Uncommented
-import { auth } from "../../Utility/firebase"; // Make sure
+import { SlLocationPin } from "react-icons/sl";
+import { auth } from "../../Utility/firebase";
 import classes from "./header.module.css";
 
 const Header = () => {

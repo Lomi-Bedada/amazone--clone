@@ -1,0 +1,5 @@
+id,Created date (UTC),Amount,Amount Refunded,Currency,Captured,Converted Amount,Converted Amount Refunded,Converted Currency,Decline Reason,Description,Fee,Refunded date (UTC),Statement Descriptor,Status,Seller Message,Taxes On Fee,Card ID,Customer ID,Customer Description,Customer Email,Invoice ID,Transfer
+ch_3QQxWPI5pDWPSC7R0rzebMds,2024-11-30 20:44:10,9.85,0.00,usd,true,9.85,0.00,usd,,,0.59,,Stripe,Paid,Payment complete.,0.00,pm_1QQxWQI5pDWPSC7RQfCgQGay,,,,,
+ch_3QQx1lI5pDWPSC7R1LWGYuiG,2024-11-30 20:12:34,672.00,0.00,usd,true,672.00,0.00,usd,,,19.79,,Stripe,Paid,Payment complete.,0.00,pm_1QQx1qI5pDWPSC7RPfJYo3ps,,,,,
+ch_3QQwykI5pDWPSC7R1f9mVuRm,2024-11-30 20:09:24,279.95,0.00,usd,true,279.95,0.00,usd,,,8.42,,Stripe,Paid,Payment complete.,0.00,pm_1QQwymI5pDWPSC7ROc4HwIVx,,,,,
+ch_3QQwtrI5pDWPSC7R0N5RNX5j,2024-11-30 20:04:21,279.95,0.00,usd,true,279.95,0.00,usd,,,8.42,,Stripe,Paid,Payment complete.,0.00,pm_1QQwttI5pDWPSC7Rma7Woklf,,,,,

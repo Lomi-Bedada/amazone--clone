@@ -1,17 +1,14 @@
 {
-  "homepage": "https://Lomi-Bedada.github.io/amazone--clone",
   "name": "amazone_clone",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "lint": "eslint .",
     "test": "react-script test",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",

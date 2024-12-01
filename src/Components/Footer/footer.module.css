@@ -35,7 +35,7 @@
   background-color: rgb(58, 81, 92);
 }
 .footer_container {
-  background-color: #232f3e;
+  background-color: #488f6a;
   color: white;
   font-size: 18px;
   display: flex;
@@ -69,7 +69,7 @@
  
         } */
 .logo {
-  background-color: #232f3e;
+  background-color: #4d9a6b;
   color: white;
   height: 100vh;
   display: flex;
@@ -93,7 +93,7 @@
   padding: 10px;
 }
 .language select {
-  background-color: #1a1a1a;
+  background-color: #3c785c;
   border: none;
   color: white;
 }
@@ -101,9 +101,6 @@
   width: 60%;
 }
 
-/* .title{
-
-  } */
 .my-apple-wrapper {
   padding-bottom: 15px;
   margin-top: 10px;

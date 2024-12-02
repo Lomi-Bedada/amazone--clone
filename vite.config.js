@@ -1,11 +1,11 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: ['firebase/compat/app', 'firebase/compat/firestore'],
-    },
+  server: {
+    host: "localhost",
+    port: 5173,
+    open: true, // Automatically open the app in the browser
   },
 });

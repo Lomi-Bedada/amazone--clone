@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import CurrencyFormat from "../../Components/Currancyformater/CurrancyFormater";
+import CurrencyFormat from "../../Components/Currancyformaters/CurrancyFormater";
 import { DataContext } from "../../Components/DataProviders/DataProvider";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";

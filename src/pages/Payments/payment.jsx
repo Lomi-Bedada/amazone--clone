@@ -2,7 +2,7 @@ import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import React, { useContext, useState } from "react";
 
 import { ClipLoader } from "react-spinners";
-import CurrencyFormat from "../../Components/Currancyformater/CurrancyFormater.jsx";
+import CurrencyFormat from "../../Components/Currancyformaters/CurrancyFormater.jsx";
 import { DataContext } from "../../Components/DataProviders/DataProvider";
 import LayOut from "../../Layouts/Layout.jsx";
 import ProductCard from "../../Components/Products/ProductCard.jsx";

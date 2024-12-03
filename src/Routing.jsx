@@ -7,7 +7,7 @@ import Landing from "./pages/Land/Landing";
 import Orders from "./pages/Order/Orders";
 import Payment from "./pages/Payments/payment";
 import ProductDetail from "./pages/ProductsDetail/ProductDetail";
-import ProtectedRoute from "./Components/Protectedroute/ProtectedRoute";
+import ProtectedRoute from "./Components/Protectedroutes/ProtectedRoute";
 import Results from "./Components/Results/Result";
 import { loadStripe } from "@stripe/stripe-js";
 

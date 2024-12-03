@@ -4,7 +4,7 @@ import CurrencyFormat from "../../Components/Currancyformater/CurrancyFormater";
 import { DataContext } from "../../Components/DataProviders/DataProvider";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
-import LayOut from "../../Layouts/LayOut";
+import LayOut from "../../Layouts/Layout";
 import { Link } from "react-router-dom";
 import ProductCard from "../../Components/Products/ProductCard";
 import { Type } from "../../Utility/action.types";

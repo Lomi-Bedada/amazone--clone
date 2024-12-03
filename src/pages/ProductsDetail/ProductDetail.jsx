@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import LayOut from "../../Layouts/LayOut.jsx";
+import LayOut from "../../Layouts/Layout.jsx";
 import Loader from "../../Components/Loading/Loader.jsx";
 import ProductCard from "../../Components/Products/ProductCard.jsx";
 import axios from "axios";

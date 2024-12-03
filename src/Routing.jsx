@@ -6,7 +6,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import Landing from "./pages/Land/Landing";
 import Orders from "./Pages/Orders/Orders";
 import Payment from "./pages/Payment/payment";
-import ProductDetail from "./pages/ProductDetail/ProductDetail";
+import ProductDetail from "./pages/ProductsDetail/ProductDetail";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import Results from "./Components/Results/Result";
 import { loadStripe } from "@stripe/stripe-js";

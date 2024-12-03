@@ -1,5 +1,5 @@
 import Carousel from "../../Components/Carousel/Carousel";
-import Category from "../../Components/Categorys/category";
+import Category from "../../Components/Categorys/Category.jsx";
 import LayOut from "../../Layout/LayOut.jsx";
 import Product from "../../Components/products/Product";
 import React from "react";

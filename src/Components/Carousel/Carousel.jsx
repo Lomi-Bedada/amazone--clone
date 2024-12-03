@@ -8,7 +8,7 @@ import { img } from "./img/data";
 const CarouselEffect = () => {
   return (
     <>
-      <div>
+      <div className="classes.carousel_toot_image">
         <Carousel
           autoPlay={true}
           infiniteLoop={true}
@@ -16,11 +16,11 @@ const CarouselEffect = () => {
           showThumbs={false}
         >
           {img.map((imageItemLink) => {
-            return <img key={imageItemLink} src={imageItemLink} alt="" />;
+            return <img src={imageItemLink} />;
           })}
         </Carousel>
-        <div className={classes.hero__img}></div>
       </div>
+      <div className={classes.hero__img}></div>
     </>
   );
 };

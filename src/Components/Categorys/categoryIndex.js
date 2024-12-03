@@ -4,7 +4,6 @@ export const categoryImage = [
     name: "electronics",
     imgLink:
       "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_TV_2X._SY304_CB432517900_.jpg",
-    // "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg"
   },
   {
     title: "Discover fashion trends",

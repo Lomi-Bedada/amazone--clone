@@ -5,12 +5,15 @@ import { ClipLoader } from "react-spinners";
 import CurrencyFormat from "../../Components/CurrancyFormater/CurrancyFormater";
 import { DataContext } from "../../Components/DataProviders/DataProvider";
 import LayOut from "../../Layout/LayOut";
-import ProductCard from "../../Components/Products/ProductCard";
-import { Type } from "../../Utility/action.types.js";
+import ProductCard from "../../Components/products/ProductCard.jsx";
 import axios from "axios";
 import classes from "./payment.module.css";
 import { db } from "../../Utility/firebase.js";
 import { useNavigate } from "react-router-dom";
+
+// import ProductCard from "../../Components/Products/ProductCard";
+
+// import { Type } from "../../Utility/action.types.js";
 
 // import { collection, doc, setDoc } from "firebase/firestore"
 

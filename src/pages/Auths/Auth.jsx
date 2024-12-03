@@ -9,7 +9,7 @@ import { ClipLoader } from "react-spinners";
 import { DataContext } from "../../Components/DataProviders/DataProvider";
 import { Type } from "../../Utility/action.types";
 import { auth } from "../../Utility/firebase";
-import classes from "./signup.module.css";
+import classes from "./Signup.module.css";
 
 const Auth = () => {
   const [email, setEmail] = useState("");

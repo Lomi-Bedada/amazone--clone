@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import LayOut from "../../Layout/LayOut";
-import Loader from "../Loader/Loader";
+import LayOut from "../../layout/LayOut";
+import Loader from "../Loading/Loader";
 import ProductCard from "../Products/ProductCard";
 import axios from "axios";
 import classes from "./results.module.css";

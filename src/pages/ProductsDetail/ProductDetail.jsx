@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import LayOut from "../../Layout/LayOut.jsx";
-import Loader from "../../Components/Loader/Loader.jsx";
+import LayOut from "../../layout/LayOut.jsx";
+import Loader from "../../Components/Loading/Loader.jsx";
 import ProductCard from "../../Components/Products/ProductCard.jsx";
 import axios from "axios";
 import { productURL } from "../../Api/endpoint.js";

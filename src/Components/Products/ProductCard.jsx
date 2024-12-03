@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import CurrencyFormat from "../CurrancyFormater/CurrancyFormater";
+import CurrencyFormat from "../Currancyformater/CurrancyFormater";
 import { DataContext } from "../DataProviders/DataProvider";
 import { Link } from "react-router-dom";
 import { Rating } from "@mui/material";

@@ -1,6 +1,6 @@
 import Carousel from "../../Components/Carousel/Carousel.jsx";
 import Category from "../../Components/Categorys/Category.jsx";
-import LayOut from "../../Layout/LayOut.jsx";
+import LayOut from "../../layout/LayOut.jsx";
 import Product from "../../Components/products/Product.jsx";
 import React from "react";
 

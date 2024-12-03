@@ -45,7 +45,7 @@ const Payment = () => {
     setProcessing(true);
     try {
       const response = await axios.post(
-        `http://127.0.0.1:5001/clone-6e083/us-central1/api/payment/create?total=${
+        `https:amazon-api-deploy-0b73.onrender.com/payment/create?total=${
           total * 100
         }`
       );

@@ -3,7 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Auth from "./pages/Auth/Auth";
 import Cart from "./pages/Cart/Cart";
 import { Elements } from "@stripe/react-stripe-js";
-import Landing from "./Pages/Landing/Landing";
+import Landing from "./pages/Land/Landing";
 import Orders from "./Pages/Orders/Orders";
 import Payment from "./pages/Payment/payment";
 import ProductDetail from "./pages/ProductDetail/ProductDetail";
@@ -11,9 +11,6 @@ import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import Results from "./Components/Results/Result";
 import { loadStripe } from "@stripe/stripe-js";
 
-// import React from "react";
-
-// Load Stripe outside of a component’s render to avoid recreating the instance on every render
 const stripePromise = loadStripe(
   "pk_test_51QQCvvI5pDWPSC7Rsdrt2WigPyuIc5N96ti8iZtA0RwVJWDh3y684JunFDawBtkujj6bPq8zFgvHcfVb8USY3VHL00sCD0glQN"
 );

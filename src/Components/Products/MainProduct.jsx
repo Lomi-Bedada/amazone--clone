@@ -5,7 +5,7 @@ import ProductCard from "./ProductCard";
 import axios from "axios";
 import classes from "./product.module.css";
 
-const Product = () => {
+const MainProduct = () => {
   const [products, setProducts] = useState();
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
@@ -43,4 +43,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default MainProduct;

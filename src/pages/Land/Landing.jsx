@@ -1,7 +1,7 @@
 import Carousel from "../../Components/Carousel/Carousel.jsx";
 import Category from "../../Components/Categorys/Category.jsx";
 import LayOut from "../../Layouts/Layout.jsx";
-import Product from "../../Components/products/Product.jsx";
+import MainProduct from "../../Components/Products/MainProduct.jsx";
 import React from "react";
 
 const Landing = () => {
@@ -9,7 +9,7 @@ const Landing = () => {
     <LayOut>
       <Carousel />
       <Category />
-      <Product />
+      <MainProduct />
     </LayOut>
   );
 };

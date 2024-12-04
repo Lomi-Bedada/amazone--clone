@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  // http: "127.0.0.1:5001/clone-6e083/us-central1/api",
+  http: "127.0.0.1:5001/clone-6e083/us-central1/api",
 
   //deployed for firebase function
   baseURL: "https://amazon-clone-back-u1rp.onrender.com",

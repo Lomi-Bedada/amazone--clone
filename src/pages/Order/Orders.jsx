@@ -31,7 +31,7 @@ const Orders = () => {
     } else {
       setOrders([]);
     }
-  }, []);
+  }, [user]);
 
   return (
     <LayOut>

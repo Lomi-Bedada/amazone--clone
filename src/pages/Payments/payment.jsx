@@ -6,10 +6,13 @@ import CurrencyFormat from "../../Components/Currancyformaters/CurrancyFormater.
 import { DataContext } from "../../Components/DataProviders/DataProvider";
 import LayOut from "../../Layouts/Layout.jsx";
 import ProductCard from "../../Components/Products/ProductCard.jsx";
-import axios from "axios";
+import { Type } from "../../Utility/action.types.js";
+import { axiosInstance } from "../../Api/axios";
 import classes from "./payment.module.css";
 import { db } from "../../Utility/firebase.js";
 import { useNavigate } from "react-router-dom";
+
+// import axios from "axios";
 
 const Payment = () => {
   const [{ user, basket }, dispatch] = useContext(DataContext);
@@ -38,20 +41,26 @@ const Payment = () => {
     e.preventDefault();
 
     if (!stripe || !elements) {
-      // Stripe.js has not yet loaded.
       return;
     }
 
-    setProcessing(true);
     try {
-      const response = await axios.post(
-        `https:amazon-api-deploy-0b73.onrender.com/payment/create?total=${
+      setProcessing(true);
+
+      const response = await axiosInstance({
+        method: "POST",
+        url: `http://127.0.0.1:5001/clone-6e083/us-central1/api/payment/create?total=${
           total * 100
-        }`
-      );
+        }`,
+      });
+
+      console.log(response.data); // Log the response for debugging
       const clientSecret = response.data?.clientSecret;
 
-      // Confirm the payment
+      if (!clientSecret) {
+        throw new Error("Failed to retrieve client secret.");
+      }
+
       const { paymentIntent, error } = await stripe.confirmCardPayment(
         clientSecret,
         {
@@ -62,15 +71,12 @@ const Payment = () => {
       );
 
       if (error) {
-        // Show error to your customer (e.g., insufficient funds)
         setCardError(error.message);
         return;
       }
 
-      // Payment successful
       console.log(paymentIntent);
 
-      // Save order to Firestore
       await db
         .collection("users")
         .doc(user.uid)
@@ -82,7 +88,6 @@ const Payment = () => {
           created: paymentIntent.created,
         });
 
-      // Clear the basket and navigate
       dispatch({ type: Type.EMPTY_BASKET });
       navigate("/orders", { state: { msg: "You have placed a new order" } });
     } catch (error) {
